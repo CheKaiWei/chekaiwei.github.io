@@ -26,7 +26,7 @@ I have interned at **Huawei** (2012 Lab, algorithm engineer, 2021–2023) and **
 ### First Author
 {: style="font-size:17px; font-weight:600; margin-top:16px; margin-bottom:8px;" }
 
-- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">ICML 2026 5554 under review</span> [Efficiently Training Time-to-First-Spike Spiking Neural Networks from Scratch](https://arxiv.org/abs/2410.23619), <br>
+- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">ICML 2026 5554 under review</span> [Efficiently Training Time-to-First-Spike Spiking Neural Networks from Scratch](https://arxiv.org/abs/2410.23619) <br>
   <ins>**Kaiwei Che**</ins>, Wei Fang, Zhengyu Ma, Yifan Huang, Peng Xue, Li Yuan, Timothée Masquelier, Yonghong Tian
 
 - <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">AAAI 2026</span> [Parallel Training Time-to-First-Spike Spiking Neural Networks](https://ojs.aaai.org/index.php/AAAI/article/view/37149), <br>
