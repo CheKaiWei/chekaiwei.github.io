@@ -38,7 +38,7 @@ I have interned at **Huawei** (2012 Lab, algorithm engineer, 2021–2023) and **
 - <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">Transactions on Artificial Intelligence 2024</span> [Spatial-Temporal Search for Spiking Neural Networks](https://arxiv.org/abs/2410.18580), <br>
   <ins>**Kaiwei Che**</ins>, Zhaokun Zhou, Li Yuan, Jianguo Zhang, Yonghong Tian, Luziwei Leng
 
-- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">Intelligence & Robotics 2024</span> A Deep Learning-based System for Accurate Detection of Anatomical Landmarks in Colon Environment, <br>
+- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">Intelligence & Robotics 2024</span> A Deep Learning-based System for Accurate Detection of Anatomical Landmarks in Colon Environment <br>
   <ins>**Kaiwei Che**</ins>, Chengwei Ye, Yibing Yao, Nachuan Ma, Ruo Zhang, Jiankun Wang, Max Q-H Meng
 
 - <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">NeurIPS 2022, Spotlight</span> [Differentiable Hierarchical and Surrogate Gradient Search for Spiking Neural Networks](https://proceedings.neurips.cc/paper_files/paper/2022/hash/9e8c2895db691eaab85af37bddee75aa-Abstract-Conference.html), <br>
