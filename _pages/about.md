@@ -89,7 +89,7 @@ I have experience in reviewing for high-impact AI conferences and journals, incl
 ## Contact
 {: #Contact-me .section-title }
 - E-mail: chekaiwei@stu.pku.edu.cn
-- Phone: 13542144724
+<!-- - Phone: 13542144724 -->
 - Google Scholar: [Kaiwei Che](https://scholar.google.com/citations?hl=en&user=cO8h2hQAAAAJ)
 
 
