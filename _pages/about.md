@@ -9,7 +9,7 @@ redirect_from:
 ---
 ##  About Me
 
-I am Kaiwei Che (Richard). I am currently a Ph.D. student (3rd year) at [Peking University](https://www.pku.edu.cn/) (since Sep. 2023), advised by Prof. [Yonghong Tian](https://cs.pku.edu.cn/info/1082/1696.htm) and Prof. [Li Yuan](https://yuanli2333.github.io/). Before this, I received my Master's degree from [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/) in 2023, advised by Prof. [Qinghu Meng](https://scholar.google.ca/citations?user=DxDCU7AAAAAJ&hl=en). I received my Bachelor's degree from [Shenzhen University](https://www.szu.edu.cn/) in 2020.
+I am Kaiwei Che (Richard), a third-year Ph.D. student at [Peking University](https://www.pku.edu.cn/) (since Sep. 2023), advised by Prof. [Yonghong Tian](https://cs.pku.edu.cn/info/1082/1696.htm) and Prof. [Li Yuan](https://yuanli2333.github.io/). Before this, I received my Master's degree from [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/) in 2023, advised by Prof. [Qinghu Meng](https://scholar.google.ca/citations?user=DxDCU7AAAAAJ&hl=en). I received my Bachelor's degree from [Shenzhen University](https://www.szu.edu.cn/) in 2020.
 
 I have interned at **Huawei** (2012 Lab, algorithm engineer, 2021–2023) and **DJI** (robot algorithm engineer, RoboMasters, 2018).
 
