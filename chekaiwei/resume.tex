@@ -1,0 +1,478 @@
+%%
+%% Copyright (c) 2018-2019 Weitian LI <wt@liwt.net>
+%% CC BY 4.0 License
+%%
+%% Résumé
+%% ------
+%% A short document (1-2 pages) to sum up the job-related accomplishments
+%% and experience.
+%%
+%% Checklist
+%% ---------
+%% * Contact Information
+%% * Work History / Experience
+%% * Education
+%% * Skills
+%% * Summary & Objective (optional)
+%% * Hobbies & Interests (optional)
+%%
+%% Credits
+%% -------
+%% * CV vs. Resume: What is the Difference? When to Use Which?
+%%   https://uptowork.com/blog/cv-vs-resume-difference
+%% * How to Make a Resume: A Step-by-Step Guide (+30 Examples)
+%%   https://uptowork.com/blog/how-to-make-a-resume
+%% * Entry-Level Resume: Sample and Complete Guide (+20 Examples)
+%%   https://uptowork.com/blog/entry-level-resume-example
+%%
+%% Created: 2018-04-14
+%%
+
+% English version
+\documentclass{resume}
+\usepackage[UTF8]{ctex}
+% \documentclass{ctexart}
+% Adjust icon size (default: same size as the text)
+\iconsize{\normalsize}
+
+\linespread{1.2}
+\usepackage{plex-serif}
+\pagestyle{plain}
+\setlength{\footskip}{7mm}
+\usepackage[hidelinks]{hyperref}
+% \definecolor{basecolor}{HTML}{000066}
+\definecolor{basecolor}{HTML}{9A0000}
+
+%
+\colorlet{linkcolor}{linkcolor!85}
+\colorlet{accentcolor}{linkcolor!90}
+\colorlet{symbolcolor}{linkcolor!85}
+\usepackage{xeCJK}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+
+\usepackage{tabularx} % for making tables with fixed width columns
+\usepackage{array} % tabularx requires this
+% \usepackage{tabularx}
+\usepackage{enumitem}
+\let\originalTabularx\tabularx
+\let\originalEndTabularx\endtabularx
+
+\renewenvironment{tabularx}{\bgroup\centering\originalTabularx}{\originalEndTabularx\par\egroup}
+\usepackage{colortbl}
+
+\usepackage{changepage}
+
+
+% \usepackage{changepage} % 提供adjustwidth环境
+% \usepackage[margin={1cm,1cm}]{geometry}
+% \usepackage{multicol}
+% \usepackage{lipsum}
+% \setlength{\columnsep}{1cm}
+% \setlength{\columnseprule}{2pt}
+% \def\columnseprulecolor{\color{red}}
+% \setlength{\columnwidth}{0.8\textwidth} % Adjust the width of the columns as needed
+
+% \newcommand{\shusong}{\CJKfontspec{FZShuSong-Z01S}}%方正书宋
+
+% \newcommand{\heiti}{\CJKfontspec{FZHei-B01S}}%方正黑体
+
+% \newcommand{\kaishu}{\CJKfontspec{FZKai-Z03S}}%方正楷体
+
+% \newcommand{\xingkai}{\CJKfontspec{STXingkai}}%华文行楷
+
+% File information shown at the footer of the last page
+% \fileinfo{%
+%   \faCopyright{} 2018--2020, Weitian LI \hspace{0.5em}
+%   \creativecommons{by}{4.0} \hspace{0.5em}
+%   \githublink{liweitianux}{resume} \hspace{0.5em}
+%   \faEdit{} \today
+% }
+
+
+
+
+% \tagline{\icon{\faBinoculars}} <position-to-look-for>
+% \tagline{Homepage: \url{https://zhangce.netlify.app/}}
+
+% \photo{<height>}{<filename>}
+% Homepage
+% \profile{
+%     \icontext{\faLink}{\url{https://zhangce.netlify.app/}}
+%   \mobile{+86 150-7127-4102}
+%   \email{zhangce.sustech@gmail.com}
+%   \birthday{2001-12-03}
+  % Custom information:
+  % \iconlink{<icon>}{<link>}{<text>}
+% }
+
+% \setCJKsansfont   { Microsoft~YaHei } [ BoldFont = *~Bold ]
+% \setCJKfamilyfont{FandolKai}
+% \NewDocumentCommand \yahei    { } { \CJKfamily { zhyahei } }
+\setCJKmainfont[AutoFakeBold=4]{FandolKai}
+% [AutoFakeBold=3.2]
+\newlength{\expdescription}
+\setlength{\expdescription}{-3pt}
+% Define a new length variable
+\newlength{\vspacevariable}
+% Set the value of the length variable
+\setlength{\vspacevariable}{-2pt}
+
+\raggedbottom
+
+\usepackage{setspace}
+\newcommand{\myLinespread}{1.15} % 定义变量：1.0 为单倍行距，1.2 较宽松
+\setstretch{\myLinespread}
+
+\usepackage{enumitem}
+\setlist[itemize]{nosep, before=\vspace{-0.2em}, after=\vspace{-0.2em}}
+
+\begin{document}
+\pagestyle{empty}
+
+
+
+
+
+
+\begin{minipage}[t]{0.6\textwidth}
+\vspace{0pt}
+{\color{accentcolor}
+\flushleft{{\LARGE \textbf{车凯威 Kaiwei Che}} }
+\vspace{5pt}
+\flushleft{
+\small{
+\icontext{\faLink}{\link{https://scholar.google.com/citations?hl=en&user=cO8h2hQAAAAJ}{\color{linkcolor} Google Scholar}}\\
+\icontext{\faAt}{\url{chekaiwei@stu.pku.edu.cn}}\\
+\icontext{\faPhone}{\texttt{13542144724}}\\
+}
+}
+}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+\vspace{0pt}
+  \raggedleft  
+  \includegraphics[width=2cm]{chekaiwei.png}  
+\end{minipage}
+\vspace{-8pt}
+
+\small
+
+
+    
+\sectionTitle{总结}{\faUserGraduate}
+    \begin{itemize}
+        \item[ ] 北京大学博士三年级，研究方向为机器视觉，类脑算法，大模型稀疏量化加速。有多篇顶会一作论文发表（NeurIPS Spotlight，ICML，AAAI等）；曾于大疆和华为实习，具有丰富的算法研究经验；曾为学校中英文辩论队队长，数学建模协会部长，具有优秀的中英表达能力和逻辑思维。
+    \end{itemize}
+
+\vspace{3pt}
+
+\sectionTitle{教育}{\faUniversity}
+\begin{itemize}
+\item \textbf{北京大学} \hfill \textit{2023.9 - 2027.7}\\
+博士 \hspace{0.1cm} 计算机应用技术 \hspace{0.1cm} 导师：\link{https://cs.pku.edu.cn/info/1082/1696.htm}{田永鸿}, \link{https://yuanli2333.github.io/}{袁粒} 
+\item \textbf{南方科技大学} \hfill \textit{2020.9 - 2023.7}\\
+硕士 \hspace{0.1cm} 电子科学与技术 \hspace{0.1cm} 导师：\link{https://scholar.google.ca/citations?user=DxDCU7AAAAAJ&hl=en}{孟庆虎}
+\item \textbf{深圳大学} \hfill \textit{2016.9 - 2020.7}\\
+本科 \hspace{0.1cm} 自动化
+\end{itemize}
+\vspace{5pt}
+
+
+\sectionTitle{\scshape 研究经历}{\faCode}
+
+
+\arrayrulecolor{gray!50}
+
+
+% todo: 是否增加日期？
+    { \textbf{\#1. 类脑算法}
+    \\\vspace{-18pt}}%
+    \begin{itemize}
+        \item[ ] 主要研究脉冲神经网络 (Spiking Neural Network, SNNs)及其他类脑神经元构建的算法，SNN是计算神经科学、机器学习、深度学习、循环神经网络、量化神经网络的交叉领域。SNN可以视作使用二值 0/1 激活的循环神经网络，拥有高生物可解释性、事件驱动、稀疏计算的理论优势，在神经形态芯片上具有极低的能耗。
+    \end{itemize}
+
+    \begin{itemize}
+
+
+    \vspace{1pt}
+\begin{spacing}{1.1} % 局部变量控制，强制为单倍行距
+        \item \textit{\link{https://proceedings.neurips.cc/paper_files/paper/2022/hash/9e8c2895db691eaab85af37bddee75aa-Abstract-Conference.html}{Differentiable Hierarchical and Surrogate Gradient Search for Spiking Neural Networks}} 
+
+        \vspace{\expdescription}
+        \begin{tabularx}{\textwidth}{p{0.85\textwidth}|p{0.15\textwidth}}
+            % \begin{itemize}[label=\textbullet, leftmargin=*]
+% 关键动作 1：用 0pt 强制让表格顶部与当前基线对齐
+        \vspace{0pt} 
+        % 关键动作 2：使用 nosep 彻底取消列表带来的所有额外垂直间距
+        \begin{itemize}[label=\textbullet, leftmargin=*]
+                \item 搭建了一个针对SNN的可微分多层搜索通用框架，可在Layer level和Cell level进行高效搜索；
+                \item 提出可微分的代理梯度函数搜索方法去优化SNN的代理梯度；
+                \item 在MVSEC、DSEC深度估计数据集以及ImageNet图像分类数据集上均取得同等大小模型SNN的SOTA结果，比ANN少26倍能耗。
+            \end{itemize}      
+            & 
+        {
+        \vspace{0pt} % 保持左右顶端对齐
+        \fontsize{7}{8}\selectfont 
+        \makecell[l]{
+            NeurIPS 2022 \\
+            (Spotlight)\\
+        Cite: 67}}
+        \end{tabularx}
+\end{spacing}
+
+
+
+
+
+    % \begin{adjustwidth}{-1em}{}
+
+\vspace{\vspacevariable}
+\begin{spacing}{1.1} % 局部变量控制，强制为单倍行距
+    \item \textit{\link{https://arxiv.org/abs/2410.23619}{Efficiently Training Time-to-First-Spike Spiking Neural Networks from Scratch}} 
+    
+        \vspace{\expdescription}
+        \begin{tabularx}{\textwidth}{p{0.85\textwidth}|p{0.15\textwidth}}
+            \vspace{0pt} 
+        \begin{itemize}[label=\textbullet, leftmargin=*]
+            \item Time-to-first-spike (TTFS)神经元是理论最低功耗神经元，但训练困难，本文分析TTFS的训练难点，提出了一整套训练pipeline；
+            \item 分析膜电位分布，提出ETTFS-init稳定初始分布；提出weight normalization方式在训练过程中稳定权重分布；提出时序融合的decoder解决训练收敛难题；
+            \item 在CIFAR等分类数据集中取得了SOTA的性能。
+        \end{itemize}      
+        & 
+        {\vspace{0pt} \fontsize{7}{8}\selectfont 
+        \makecell[l]{
+            ICML 2026 \\ (5544 \\under review)}}
+\end{tabularx}
+\end{spacing}
+
+
+
+\vspace{\vspacevariable}
+\begin{spacing}{1.1} % 局部变量控制，强制为单倍行距
+    \item \textit{\link{https://ojs.aaai.org/index.php/AAAI/article/view/37149}{Parallel Training Time-to-First-Spike Spiking Neural Networks}} 
+
+        \vspace{\expdescription}
+        \begin{tabularx}{\textwidth}{p{0.85\textwidth}|p{0.15\textwidth}}
+            \vspace{0pt} 
+        \begin{itemize}[label=\textbullet, leftmargin=*]
+            \item 研究TTFS神经元的动力学方程，提出了并行化的训练方法，有效提升在GPU的训练效率； 
+            \item 提出了适配TTFS的稀疏发放的输出decoder，在CIFAR等分类数据集中取得了SOTA的性能。
+        \end{itemize}      
+        & 
+        {\vspace{0pt} \fontsize{7}{8}\selectfont 
+        \makecell[l]{
+            AAAI 2026}}
+        \end{tabularx}
+\end{spacing}
+        
+
+
+
+
+
+
+
+
+\vspace{\vspacevariable}
+\begin{spacing}{1.1} % 局部变量控制，强制为单倍行距
+    \item \textit{\link{https://arxiv.org/abs/2401.02020}{Spikformer V2: Join the High Accuracy Club on ImageNet with an SNN Ticket}} 
+        
+        \vspace{\expdescription}
+        \begin{tabularx}{\textwidth}{p{0.85\textwidth}|p{0.15\textwidth}}
+            \vspace{0pt} 
+        \begin{itemize}[label=\textbullet, leftmargin=*]
+            \item 第一个提出SNN大规模MAE预训练的方法；
+            \item 在大型数据集ImageNet上取得了SNN的SOTA结果。
+        \end{itemize}      
+        & 
+        {\vspace{0pt} \fontsize{7}{8}\selectfont 
+        \makecell[l]{
+            TIP \\
+            (under review)\\
+        Cite: 81}}
+        \end{tabularx}
+\end{spacing}
+
+\vspace{\vspacevariable}
+\begin{spacing}{1.1} % 局部变量控制，强制为单倍行距
+        \item \textit{\link{https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_Discrete_Time_Convolution_for_Fast_Event-Based_Stereo_CVPR_2022_paper.html}{Discrete time convolution for fast event-based stereo}} 
+
+        \vspace{\expdescription}
+        \begin{tabularx}{\textwidth}{p{0.85\textwidth}|p{0.15\textwidth}}
+            \vspace{0pt} 
+            \begin{itemize}[label=\textbullet, leftmargin=*]
+                \item 提出了离散时间卷积模块 (Discrete Time Convolution) 在时间维度上对特征进行聚合，对事件帧高效编码；
+                \item 在MVSEC、DSEC深度估计数据集取得SOTA，利用DTC的循环特性进行流式测试，推理速度达110FPS。
+            \end{itemize}      
+            & 
+        {\vspace{0pt} \fontsize{7}{8}\selectfont 
+        \makecell[l]{
+            CVPR 2022\\
+        Cite: 49}}
+        \end{tabularx}
+\end{spacing}
+
+
+\vspace{\vspacevariable}
+\begin{spacing}{1.1} % 局部变量控制，强制为单倍行距
+                \item \textit{\link{https://arxiv.org/abs/2306.00807}{Auto-Spikformer: Spikformer Architecture Search}} 
+
+        \vspace{\expdescription}
+        \begin{tabularx}{\textwidth}{p{0.85\textwidth}|p{0.15\textwidth}}
+            \vspace{0pt} 
+            \begin{itemize}[label=\textbullet, leftmargin=*]
+                \item 第一个使用ontshot-NAS对Spiking Transformer进行搜索的方法；
+                \item 提出了关于SNN的新的搜索空间，提出了能耗精度平衡的Fitness function。
+            \end{itemize}      
+            & 
+            {\vspace{0pt} \fontsize{7}{8}\selectfont 
+        \makecell[l]{
+        Frontier 2024\\
+        Cite: 21}}
+        \end{tabularx}
+\end{spacing}
+
+
+
+
+        
+
+
+
+    % \end{adjustwidth}
+
+        % \item \textit{\link{https://arxiv.org/abs/2304.11857}{Accurate and Efficient Event-based Semantic Segmentation Using Adaptive Spiking Encoder-Decoder Network}} \\
+        % (under review, TNNLS)
+        % \begin{itemize}[leftmargin=*]
+        % \item 基于SpikeDHS的方法，针对基于事件的语义分割任务进行搜索和训练。
+        % \item 提出Spiking Spatially-Adaptive Modulation (SSAM) 通用模块，有效地增强事件特征。
+        % \item 在多个语义分割数据集上取得SNN的SOTA结果，同时比ANN减少数十倍能耗。
+        % \end{itemize}
+
+        % \item \textit{\link{https://arxiv.org/abs/2307.12900}{Automotive Object Detection via Learning Sparse Events by Temporal Dynamics of Spiking Neurons}}(under review)
+        % \begin{itemize}[leftmargin=*]
+        % \item 基于SpikeDHS的框架，针对基于事件的检测任务构建模型。
+        % \item 提出ALIF模型有效地增强事件特征。
+        % \item 在多个检测数据集上取得SNN的SOTA结果，同时比ANN减少数十倍能耗。
+        % \end{itemize}
+        
+    \end{itemize}
+    
+    % { \textbf{\#2. 机器人及医疗图像}
+    % \\\vspace{-18pt}}%
+    % \begin{itemize}
+    %     \item[ ]  研究生阶段研究过机器人运动规划相关算法，参与过医疗影像识别相关项目。
+    % \end{itemize}
+    % \vspace{-3pt}
+    % \begin{itemize}
+    %     \item \textit{\link{https://ieeexplore.ieee.org/abstract/document/9739381/}{Motion Planning for Hexapod Robots in Dynamic Rough Terrain Environments}} 
+
+    %     \begin{tabularx}{\textwidth}{p{0.85\textwidth}|p{0.15\textwidth}}
+    %         \vspace{-10pt}
+    %         \begin{itemize}[leftmargin=*]
+    %             \item 基于开源模型搭建了六足机器人模型及有动态障碍物的崎岖路面仿真环境。
+    %             \item 仿真环境中验证了 Teb 和 RRT* 结合的路径规划算法,让六足机器人在崎岖路面上平滑且快速地移动。
+    %         \vspace{\myitemsep}
+    %         \end{itemize}      
+    %         & 
+    %         {\fontsize{7}{8}\selectfont 
+    %     \makecell[l]{
+    %     ROBIO 2021\\
+    %     First author}}
+    %     \vspace{\myitemsep}
+    %     \end{tabularx}
+
+
+    %     \vspace{\vspacevariable}
+
+    %     \item \textit{\link{https://arxiv.org/abs/2108.02948}{Deep learning-based biological anatomical landmark detection in colonoscopy videos}} 
+
+    %     \begin{tabularx}{\textwidth}{p{0.85\textwidth}|p{0.15\textwidth}}
+    %         \vspace{-10pt}
+    %         \begin{itemize}[leftmargin=*]
+    %             \item 提出基于Canny算子的结肠干扰帧去除算法。
+    %             \item 以ResNet-101为backbone设计分类模型，实现了对结肠内生物解剖界标的分类。最终达到90\%以上的分类精度。
+    %         \vspace{\myitemsep}
+    %         \end{itemize}      
+    %         & 
+    %         {\fontsize{7}{8}\selectfont 
+    %     \makecell[l]{
+    %     IJRA 2021\\
+    %     First author}}
+    %     \vspace{\myitemsep}
+    %     \end{tabularx}
+
+    % \end{itemize}
+
+    \vspace{-2pt}
+    { \textbf{\#2. 大模型稀疏量化加速}
+    \\\vspace{-18pt}}%
+
+    \begin{itemize}
+
+
+    \vspace{5pt}
+\begin{spacing}{1.1} % 局部变量控制，强制为单倍行距
+        \item \textit{鹏城NPU大模型推理平台搭建} 
+
+        \vspace{3pt} 
+        % 关键动作 2：使用 nosep 彻底取消列表带来的所有额外垂直间距
+        \begin{itemize}[label=\textbullet, leftmargin=*]
+                \item 参与开发维护基于华为NPU的LLM模型量化，稀疏，加速框架NPUSlim。该工具链集成 GPTQ/QuIP 等多种 PTQ 算法，并实现了与 vLLM 的无缝部署集成，提升了国产硬件上的模型推理效能。
+            \end{itemize}    
+\end{spacing}
+\end{itemize}
+
+    \vspace{5pt}
+    { \textbf{\#3. 审稿经历}
+    \\\vspace{-18pt}}%
+    \begin{itemize}
+        \item 会议：NeurIPS, ICML, ICLR, CVPR, AAAI
+        \item 期刊：TIP, TNNLS, PR
+        % \item 2021 IEEE International Conference on Robotics and Biomimetics (ROBIO)
+        % \item 2022 International Symposium on Biomimetic Intelligence and Robotics
+        % \item SCIENCE CHINA Information Sciences 
+    \end{itemize}
+    
+\vspace{5pt}
+
+\sectionTitle{实习经历}{\faSitemap}
+
+
+\textbf{\#1. Research Intern | 华为 | 算法工程师 | 2012实验室}
+\hfill \textit{2021.08 - 2023.08}\\\vspace{-15pt}%
+\begin{itemize}[label=\textbullet, leftmargin=*]
+\item 参与神经网络框架搜索SNN神经元的研究，以第一作者发表一篇NeurIPS以及TAI，合作两篇TNNLS。
+\item 参与基于事件相机及类脑算法的深度估计研究，以第二作者发表一篇CVPR。
+\end{itemize}
+
+\textbf{\#2. Intern | 大疆 | 机器人算法工程师 | Robomasters}
+\hfill \textit{2018.07 - 2018.09}\\\vspace{-15pt}%
+\begin{itemize}[label=\textbullet, leftmargin=*]
+\item 参与Robomasters机器人视觉模块构建，\link{https://github.com/RoboMaster/RoboRTS}{项目链接} (star 800+)。
+\end{itemize}
+
+
+\sectionTitle{荣誉奖项}{\faAward}
+\begin{itemize}
+% todo: 日期修改
+\item 北京大学优秀科研奖 (2025)      
+\item 南方科技大学优秀毕业生 (2023) 
+    %   \item MathorCup高校数学建模挑战赛-大数据赛三等奖 (2021)
+      % \item 美国大学生数学建模竞赛三等奖 (2019)
+      \item 中国物联网大赛一等奖 (2018)
+      \item 阿里云创新奖 (2018)
+\end{itemize}
+
+\vspace{5pt}
+
+\sectionTitle{技能和语言}{\faWrench}
+\begin{itemize}
+      \item 编程语言 \hspace{0.765cm} Python, C++ 
+      \item 深度学习平台 \hspace{0.12cm} Pytorch 
+      \item 语言 \hspace{1.4cm} CET6 
+\end{itemize}
+
+\end{document}

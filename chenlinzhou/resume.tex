@@ -1,0 +1,307 @@
+%%
+%% Copyright (c) 2018-2019 Weitian LI <wt@liwt.net>
+%% CC BY 4.0 License
+%%
+%% Résumé — Chenlin Zhou (周晨麟)
+%%
+
+% English version
+\documentclass{resume}
+\usepackage[UTF8]{ctex}
+\iconsize{\normalsize}
+
+\linespread{1.2}
+\usepackage{plex-serif}
+\pagestyle{plain}
+\setlength{\footskip}{7mm}
+\usepackage[hidelinks]{hyperref}
+\definecolor{basecolor}{HTML}{9A0000}
+
+\colorlet{linkcolor}{linkcolor!85}
+\colorlet{accentcolor}{linkcolor!90}
+\colorlet{symbolcolor}{linkcolor!85}
+\usepackage{xeCJK}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\let\originalTabularx\tabularx
+\let\originalEndTabularx\endtabularx
+
+\renewenvironment{tabularx}{\bgroup\centering\originalTabularx}{\originalEndTabularx\par\egroup}
+\usepackage{colortbl}
+\usepackage{changepage}
+
+\setCJKmainfont[AutoFakeBold=4]{FandolKai}
+
+\newlength{\expdescription}
+\setlength{\expdescription}{-3pt}
+\newlength{\vspacevariable}
+\setlength{\vspacevariable}{-2pt}
+
+\raggedbottom
+
+\usepackage{setspace}
+\newcommand{\myLinespread}{1.15}
+\setstretch{\myLinespread}
+
+\usepackage{enumitem}
+\setlist[itemize]{nosep, before=\vspace{-0.2em}, after=\vspace{-0.2em}}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{minipage}[t]{0.6\textwidth}
+\vspace{0pt}
+{\color{accentcolor}
+\flushleft{{\LARGE \textbf{周晨麟 Chenlin Zhou}} }
+\vspace{5pt}
+\flushleft{
+\small{
+\icontext{\faLink}{\link{https://zhouchenlin2096.github.io}{\color{linkcolor} Personal Website}}\\
+\icontext{\faLink}{\link{https://scholar.google.com/citations?user=GG_-POgAAAAJ&hl=zh-CN}{\color{linkcolor} Google Scholar}}\\
+\icontext{\faAt}{\url{chenlinzhou25@stu.pku.edu.cn}}\\
+}
+}
+}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+\vspace{0pt}
+  \raggedleft
+  % 请将个人照片命名为 chenlinzhou.png 放于本文件夹，或修改下方路径
+  \includegraphics[width=2cm]{../images/bio-photo.jpg}
+\end{minipage}
+\vspace{-8pt}
+
+\small
+
+
+\sectionTitle{总结}{\faUserGraduate}
+    \begin{itemize}
+        \item[ ] 北京大学博士生（2025年入学），研究方向为脉冲神经网络（SNN）、神经形态计算及大语言模型量化加速。以第一作者在AAAI 2026（Oral）、NeurIPS 2024等顶会发表论文，并合作发表NeurIPS 2025、AAAI 2026等多篇论文；曾于鹏城实验室担任算法工程师（2022-2025），具有丰富的科研与工程落地经验；审稿经历涵盖AAAI、NeurIPS、ICLR、ACM MM等顶会及IEEE TIM、Neurocomputing等期刊。
+    \end{itemize}
+
+\vspace{3pt}
+
+\sectionTitle{教育}{\faUniversity}
+\begin{itemize}
+\item \textbf{北京大学} \hfill \textit{2025.9 - 至今}\\
+博士 \hspace{0.1cm} 计算机科学 \hspace{0.1cm} 导师：\link{https://ai4s.pkusz.edu.cn/info/1049/1208.htm}{田永鸿}
+\item \textbf{中国科学院大学 / 中国科学院自动化研究所} \hfill \textit{2019.9 - 2022.7}\\
+硕士 \hspace{0.1cm} 模式识别与智能系统 \hspace{0.1cm} 导师：\link{https://ia.cas.cn/rcdw/qch/202404/t20240422_7129917.html}{王鹏}
+\end{itemize}
+\vspace{5pt}
+
+
+\sectionTitle{\scshape 研究经历}{\faCode}
+
+\arrayrulecolor{gray!50}
+
+{ \textbf{\#1. 脉冲神经网络（Spiking Neural Networks）}
+\\\vspace{-18pt}}%
+\begin{itemize}
+    \item[ ] 主要研究脉冲神经网络（SNN）及神经形态计算，包括SNN架构设计、高效训练方法，以及SNN在图像分类、语音识别、脑机接口等领域的应用。致力于提升SNN的性能与能效，推动类脑计算实用化。
+\end{itemize}
+
+\begin{itemize}
+
+\vspace{1pt}
+\begin{spacing}{1.1}
+    \item \textit{\link{https://openreview.net/forum?id=SmZTeHYlCa}{Spikingformer: A Key Foundation Model for Spiking Neural Networks}}
+
+    \vspace{\expdescription}
+    \begin{tabularx}{\textwidth}{p{0.85\textwidth}|p{0.15\textwidth}}
+        \vspace{0pt}
+        \begin{itemize}[label=\textbullet, leftmargin=*]
+            \item 提出面向脉冲神经网络的基础模型 Spikingformer，建立SNN领域的统一架构范式；
+            \item 在图像分类等多个基准任务上取得SOTA性能，展示了SNN作为通用基础模型的潜力。
+        \end{itemize}
+        &
+        {\vspace{0pt} \fontsize{7}{8}\selectfont
+        \makecell[l]{
+            AAAI 2026 \\
+            (Oral)\\
+        First Author}}
+    \end{tabularx}
+\end{spacing}
+
+\vspace{\vspacevariable}
+\begin{spacing}{1.1}
+    \item \textit{\link{https://arxiv.org/pdf/2403.16552v2}{Hierarchical Spiking Transformer using Q-K Attention}}
+
+    \vspace{\expdescription}
+    \begin{tabularx}{\textwidth}{p{0.85\textwidth}|p{0.15\textwidth}}
+        \vspace{0pt}
+        \begin{itemize}[label=\textbullet, leftmargin=*]
+            \item 提出基于Q-K注意力机制的层级脉冲Transformer，有效捕捉多尺度时空特征；
+            \item 在ImageNet图像分类任务上取得领先的SNN性能。
+        \end{itemize}
+        &
+        {\vspace{0pt} \fontsize{7}{8}\selectfont
+        \makecell[l]{
+            NeurIPS 2024\\
+        First Author}}
+    \end{tabularx}
+\end{spacing}
+
+\vspace{\vspacevariable}
+\begin{spacing}{1.1}
+    \item \textit{\link{https://arxiv.org/abs/2508.05164}{S\textsuperscript{2}M-Former: Spiking Symmetric Mixing Branchformer for Brain Auditory Attention Detection}}
+
+    \vspace{\expdescription}
+    \begin{tabularx}{\textwidth}{p{0.85\textwidth}|p{0.15\textwidth}}
+        \vspace{0pt}
+        \begin{itemize}[label=\textbullet, leftmargin=*]
+            \item 提出SNN与Branchformer结合的对称混合架构，应用于脑听觉注意力检测任务；
+            \item 实现了高精度、低能耗的脑机接口信号处理方案。
+        \end{itemize}
+        &
+        {\vspace{0pt} \fontsize{7}{8}\selectfont
+        \makecell[l]{
+            NeurIPS 2025\\
+            Co-author}}
+    \end{tabularx}
+\end{spacing}
+
+\vspace{\vspacevariable}
+\begin{spacing}{1.1}
+    \item \textit{\link{https://arxiv.org/pdf/2405.04289}{Direct Training High-Performance Deep Spiking Neural Networks: A Review of Theories and Methods}}
+
+    \vspace{\expdescription}
+    \begin{tabularx}{\textwidth}{p{0.85\textwidth}|p{0.15\textwidth}}
+        \vspace{0pt}
+        \begin{itemize}[label=\textbullet, leftmargin=*]
+            \item 系统综述直接训练高性能深度SNN的理论基础与最新方法；
+            \item 涵盖代理梯度、神经元模型、架构设计及应用等多个核心方向，为该领域提供全面参考。
+        \end{itemize}
+        &
+        {\vspace{0pt} \fontsize{7}{8}\selectfont
+        \makecell[l]{
+            Frontiers\\
+            2024\\
+        First Author}}
+    \end{tabularx}
+\end{spacing}
+
+\vspace{\vspacevariable}
+\begin{spacing}{1.1}
+    \item \textit{\link{https://arxiv.org/abs/2511.07883v1}{SpikCommander: A High-performance Spiking Transformer with Multi-view Learning for Efficient Speech Command Recognition}}
+
+    \vspace{\expdescription}
+    \begin{tabularx}{\textwidth}{p{0.85\textwidth}|p{0.15\textwidth}}
+        \vspace{0pt}
+        \begin{itemize}[label=\textbullet, leftmargin=*]
+            \item 提出结合多视角学习的高性能SNN Transformer，用于高效语音指令识别；
+            \item 在多个语音识别基准上取得SOTA性能，同时保持SNN低能耗优势。
+        \end{itemize}
+        &
+        {\vspace{0pt} \fontsize{7}{8}\selectfont
+        \makecell[l]{
+            AAAI 2026\\
+            Co-author}}
+    \end{tabularx}
+\end{spacing}
+
+\vspace{\vspacevariable}
+\begin{spacing}{1.1}
+    \item \textit{\link{https://arxiv.org/abs/2412.12858}{Efficient Speech Command Recognition Leveraging Spiking Neural Network and Curriculum Learning-based Knowledge Distillation}}
+
+    \vspace{\expdescription}
+    \begin{tabularx}{\textwidth}{p{0.85\textwidth}|p{0.15\textwidth}}
+        \vspace{0pt}
+        \begin{itemize}[label=\textbullet, leftmargin=*]
+            \item 结合SNN与课程学习知识蒸馏，提出高效语音指令识别方法；
+            \item 在多个语音识别基准上取得良好性能与能效平衡。
+        \end{itemize}
+        &
+        {\vspace{0pt} \fontsize{7}{8}\selectfont
+        \makecell[l]{
+            Neural\\
+            Networks\\
+            2025\\
+            Co-author}}
+    \end{tabularx}
+\end{spacing}
+
+\end{itemize}
+
+\vspace{-2pt}
+{ \textbf{\#2. 工业视觉检测（硕士期间）}
+\\\vspace{-18pt}}%
+
+\begin{itemize}
+
+\vspace{5pt}
+\begin{spacing}{1.1}
+    \item \textit{\link{https://ieeexplore.ieee.org/abstract/document/9475052/}{ACR-Net: Attention Integrated and Cross-spatial Feature Fused Rotation Network for Tubular Solder Joint Detection}}
+
+    \vspace{3pt}
+    \begin{tabularx}{\textwidth}{p{0.85\textwidth}|p{0.15\textwidth}}
+        \vspace{0pt}
+        \begin{itemize}[label=\textbullet, leftmargin=*]
+            \item 提出集成注意力机制与跨空间特征融合的旋转网络，用于管状焊点缺陷检测；
+            \item 在工业焊点检测基准上取得优异性能。
+        \end{itemize}
+        &
+        {\vspace{0pt} \fontsize{7}{8}\selectfont
+        \makecell[l]{
+            IEEE TIM\\
+            2021\\
+        First Author}}
+    \end{tabularx}
+\end{spacing}
+
+\vspace{\vspacevariable}
+\begin{spacing}{1.1}
+    \item \textit{\link{https://www.sciencedirect.com/science/article/pii/S0263224121007697}{Bin-based Vector-predicted Network for Tubular Solder Joint Detection}}
+
+    \vspace{\expdescription}
+    \begin{tabularx}{\textwidth}{p{0.85\textwidth}|p{0.15\textwidth}}
+        \vspace{0pt}
+        \begin{itemize}[label=\textbullet, leftmargin=*]
+            \item 提出基于分箱的向量预测网络，实现对管状焊点的精确检测与定位；
+            \item 在工业检测数据集上取得高精度检测结果。
+        \end{itemize}
+        &
+        {\vspace{0pt} \fontsize{7}{8}\selectfont
+        \makecell[l]{
+            Measurement\\
+            2021\\
+        First Author}}
+    \end{tabularx}
+\end{spacing}
+
+\end{itemize}
+
+\vspace{5pt}
+{ \textbf{\#3. 审稿经历}
+\\\vspace{-18pt}}%
+\begin{itemize}
+    \item 会议：AAAI, NeurIPS, ICLR, ACM MM, IJCAI, ICME, ICRA
+    \item 期刊：IEEE TIM, Neurocomputing
+\end{itemize}
+
+\vspace{5pt}
+
+\sectionTitle{工作经历}{\faSitemap}
+
+\textbf{Algorithm Engineer | 鹏城实验室 | 算法工程师}
+\hfill \textit{2022.07 - 2025.09}\\\vspace{-15pt}%
+\begin{itemize}[label=\textbullet, leftmargin=*]
+\item 从事脉冲神经网络及神经形态计算方向的前沿研究，以第一/合作作者身份发表多篇顶会论文（NeurIPS 2024, NeurIPS 2025, AAAI 2026等）。
+\item 参与SNN算法工程化落地实践，积累了从研究到部署的完整经验。
+\end{itemize}
+
+\vspace{5pt}
+
+\sectionTitle{技能和语言}{\faWrench}
+\begin{itemize}
+    \item 编程语言 \hspace{0.765cm} Python, C++
+    \item 深度学习平台 \hspace{0.12cm} PyTorch
+    \item 语言 \hspace{1.4cm} 中文（母语），英文（学术级）
+\end{itemize}
+
+\end{document}
