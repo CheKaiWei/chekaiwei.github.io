@@ -7,51 +7,70 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello, welcome to my website! I am currently a Ph.D. student (3rd year) at [Peking University](https://www.pku.edu.cn/) (since Sep. 2023), advised by Prof. [Yonghong Tian](https://cs.pku.edu.cn/info/1082/1696.htm) and Prof. [Li Yuan](https://yuanli2333.github.io/). Before this, I received my Master's degree from [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/) in 2023, advised by Prof. [Qinghu Meng](https://scholar.google.ca/citations?user=DxDCU7AAAAAJ&hl=en). I received my Bachelor's degree from [Shenzhen University](https://www.szu.edu.cn/) in 2020.
+I am Kaiwei Che (Richard). I am currently a Ph.D. student (3rd year) at [Peking University](https://www.pku.edu.cn/) (since Sep. 2023), advised by Prof. [Yonghong Tian](https://cs.pku.edu.cn/info/1082/1696.htm) and Prof. [Li Yuan](https://yuanli2333.github.io/). Before this, I received my Master's degree from [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/) in 2023, advised by Prof. [Qinghu Meng](https://scholar.google.ca/citations?user=DxDCU7AAAAAJ&hl=en). I received my Bachelor's degree from [Shenzhen University](https://www.szu.edu.cn/) in 2020.
 
 I have interned at **Huawei** (2012 Lab, algorithm engineer, 2021–2023) and **DJI** (robot algorithm engineer, RoboMasters, 2018).
 
-###  Call for Collaboration!
-My current research interests mainly focus on: 
+###  Research Interests
 - **Spiking Neural Networks (SNNs), brain-inspired algorithms, neuromorphic computing**
 - **LLM sparse quantization and efficient inference acceleration**
 - **Event-based vision and neuromorphic sensing**
-
-Open to any discussion or cooperation, feel free to contact me! 
-
-
-## News
-{: #News .section-title }
-
-- [2025] Received **Peking University Outstanding Research Award**.
-- [2026] Paper accepted at **AAAI 2026**: *Parallel Training Time-to-First-Spike Spiking Neural Networks*.
-- [2023] Joined [Peking University](https://www.pku.edu.cn/) as a Ph.D. student.
-- [2023] Graduated from [SUSTech](https://www.sustech.edu.cn/) with **Outstanding Graduate** honor.
-- [2022] Paper published at **CVPR 2022**: *Discrete Time Convolution for Fast Event-Based Stereo*.
-- [2022] Paper published at **NeurIPS 2022 (Spotlight)**: *Differentiable Hierarchical and Surrogate Gradient Search for Spiking Neural Networks*.
 
 
 
 ## Publications 
 {: #publications .section-title }
 
-- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">ICML 2026</span> [Efficiently Training Time-to-First-Spike Spiking Neural Networks from Scratch](https://arxiv.org/abs/2410.23619), <br>
-  <ins>**Kaiwei Che**</ins>, et al.
+<!-- ### First Author
+{: style="font-size:17px; font-weight:600; margin-top:16px; margin-bottom:8px;" } -->
+
+- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">ICML 2026 5554 under review</span> [Efficiently Training Time-to-First-Spike Spiking Neural Networks from Scratch](https://arxiv.org/abs/2410.23619), <br>
+  <ins>**Kaiwei Che**</ins>, Wei Fang, Zhengyu Ma, Yifan Huang, Peng Xue, Li Yuan, Timothée Masquelier, Yonghong Tian
 
 - <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">AAAI 2026</span> [Parallel Training Time-to-First-Spike Spiking Neural Networks](https://ojs.aaai.org/index.php/AAAI/article/view/37149), <br>
-  <ins>**Kaiwei Che**</ins>, et al.
-
-- <span style="display:inline-block; background-color:#9A3324; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">NeurIPS 2022 Spotlight</span> [Differentiable Hierarchical and Surrogate Gradient Search for Spiking Neural Networks](https://proceedings.neurips.cc/paper_files/paper/2022/hash/9e8c2895db691eaab85af37bddee75aa-Abstract-Conference.html), <br>
-  <ins>**Kaiwei Che**</ins>, et al. &nbsp; *Cited: 67*
-
-- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">CVPR 2022</span> [Discrete Time Convolution for Fast Event-Based Stereo](https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_Discrete_Time_Convolution_for_Fast_Event-Based_Stereo_CVPR_2022_paper.html), <br>
-  Zhihao Zhang, <ins>**Kaiwei Che**</ins>, et al. &nbsp; *Cited: 49*
-
-- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">TIP (under review)</span> [Spikformer V2: Join the High Accuracy Club on ImageNet with an SNN Ticket](https://arxiv.org/abs/2401.02020), <br>
-  <ins>**Kaiwei Che**</ins>, et al. &nbsp; *Cited: 81*
+  <ins>**Kaiwei Che**</ins>, Wei Fang, Peng Xue, Yifan Huang, Zhengyu Ma, Yonghong Tian
 
 - <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">Frontiers in Neuroscience 2024</span> [Auto-Spikformer: Spikformer Architecture Search](https://arxiv.org/abs/2306.00807), <br>
-  <ins>**Kaiwei Che**</ins>, et al. &nbsp; *Cited: 21*
+  <ins>**Kaiwei Che**</ins>, Zhaokun Zhou, Jun Niu, Zhengyu Ma, Wei Fang, Yanqi Chen, Shuaijie Shen, Li Yuan, Yonghong Tian
+
+- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">arXiv 2024</span> [Spatial-Temporal Search for Spiking Neural Networks](https://arxiv.org/abs/2410.18580), <br>
+  <ins>**Kaiwei Che**</ins>, Zhaokun Zhou, Li Yuan, Jianguo Zhang, Yonghong Tian, Luziwei Leng
+
+- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">Intelligence & Robotics 2024</span> A Deep Learning-based System for Accurate Detection of Anatomical Landmarks in Colon Environment, <br>
+  <ins>**Kaiwei Che**</ins>, Chengwei Ye, Yibing Yao, Nachuan Ma, Ruo Zhang, Jiankun Wang, Max Q-H Meng
+
+- <span style="display:inline-block; background-color:#9A3324; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">NeurIPS 2022, Spotlight</span> [Differentiable Hierarchical and Surrogate Gradient Search for Spiking Neural Networks](https://proceedings.neurips.cc/paper_files/paper/2022/hash/9e8c2895db691eaab85af37bddee75aa-Abstract-Conference.html), <br>
+  <ins>**Kaiwei Che**</ins>, Luziwei Leng, Kaixuan Zhang, Jianguo Zhang, Qinghu Meng, Jie Cheng, Qinghai Guo, Jianxing Liao
+
+<!-- ### Co-Author
+{: style="font-size:17px; font-weight:600; margin-top:20px; margin-bottom:8px;" } -->
+
+- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">Neural Networks 2025</span> Spatially-enhanced Spiking Neural Network for Efficient Point Cloud Analysis, <br>
+  Yijie Lu, Zhiyi Pan, Renrui Zhang, Yanhao Jia, <ins>**Kaiwei Che**</ins>, Zhaokun Zhou
+
+- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">NeurIPS 2024</span> Spiking Transformer with Experts Mixture, <br>
+  Zhaokun Zhou, Yijie Lu, Yanhao Jia, <ins>**Kaiwei Che**</ins>, Jun Niu, Liwei Huang, Xinyu Shi, Yuesheng Zhu, Guoqi Li, Zhaofei Yu
+
+- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">TIP (under review)</span> [Spikformer V2: Join the High Accuracy Club on ImageNet with an SNN Ticket](https://arxiv.org/abs/2401.02020), <br>
+  Zhaokun Zhou, <ins>**Kaiwei Che**</ins>, Wei Fang, Keyu Tian, Yuesheng Zhu, Shuicheng Yan, Yonghong Tian, Li Yuan
+
+- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">TNNLS 2024</span> Accurate and Efficient Event-based Semantic Segmentation Using Adaptive Spiking Encoder-Decoder Network, <br>
+  Rui Zhang, Luziwei Leng, <ins>**Kaiwei Che**</ins>, Hu Zhang, Jie Cheng, Qinghai Guo, Jianxing Liao, Ran Cheng
+
+- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">IEEE TCDS 2024</span> Automotive Object Detection via Learning Sparse Events by Spiking Neurons, <br>
+  Hu Zhang, Yanchen Li, Luziwei Leng, <ins>**Kaiwei Che**</ins>, Qian Liu, Qinghai Guo, Jianxing Liao, Ran Cheng
+
+- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">IEEE TCDS 2024</span> Spatial-Temporal Spiking Feature Pruning in Spiking Transformer, <br>
+  Zhaokun Zhou, <ins>**Kaiwei Che**</ins>, Jun Niu, Man Yao, Guoqi Li, Li Yuan, Guibo Luo, Yuesheng Zhu
+
+- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">ICANN 2024</span> A Multi-modal Spiking Meta-learner with Brain-Inspired Task-Aware Modulation Scheme, <br>
+  Jun Niu, Zhaokun Zhou, <ins>**Kaiwei Che**</ins>, Li Yuan
+
+- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">CVPR 2022</span> [Discrete Time Convolution for Fast Event-Based Stereo](https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_Discrete_Time_Convolution_for_Fast_Event-Based_Stereo_CVPR_2022_paper.html), <br>
+  Kaixuan Zhang, <ins>**Kaiwei Che**</ins>, Jianguo Zhang, Jie Cheng, Ziyang Zhang, Qinghai Guo, Luziwei Leng
+
+- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">ROBIO 2021</span> [Motion Planning for Hexapod Robots in Dynamic Rough Terrain Environments](https://ieeexplore.ieee.org/abstract/document/9739381/), <br>
+  Bingyi Xia, <ins>**Kaiwei Che**</ins>, Zhilong Tang, Jiankun Wang, Max Q-H Meng
 
 
 
@@ -62,16 +81,7 @@ I have experience in reviewing for high-impact AI conferences and journals, incl
 
 **Conferences:** NeurIPS, ICML, ICLR, CVPR, AAAI
 
-**Journals:** IEEE TIP, TNNLS, Pattern Recognition
-
-
-
-## Welcome Visitors
-{: #visitors .section-title }
-
-<a href="https://clustrmaps.com/site/1c1la" title="Visit tracker">
-  <img src="//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=m&d=lLNo_aaNpQ7KFqBhrFSGp8PbncZ0gy3O4oljQP1rOsk&co=2d78ad&ct=ffffff" />
-</a>
+**Journals:** TIP, TNNLS, Pattern Recognition
 
 
 ## Contact

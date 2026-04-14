@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Kaiwei Che"
-  avatar           : "bio-photo.jpg"
+  avatar           : "chekaiwei.png"
   bio              : "Ph.D. student at Peking University. Research in Spiking Neural Networks, brain-inspired algorithms, and LLM quantization."
   location         : "Beijing, China"
   employer         :
