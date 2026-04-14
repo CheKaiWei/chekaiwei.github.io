@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-##  Summary
+##  About Me
 
 I am Kaiwei Che (Richard). I am currently a Ph.D. student (3rd year) at [Peking University](https://www.pku.edu.cn/) (since Sep. 2023), advised by Prof. [Yonghong Tian](https://cs.pku.edu.cn/info/1082/1696.htm) and Prof. [Li Yuan](https://yuanli2333.github.io/). Before this, I received my Master's degree from [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/) in 2023, advised by Prof. [Qinghu Meng](https://scholar.google.ca/citations?user=DxDCU7AAAAAJ&hl=en). I received my Bachelor's degree from [Shenzhen University](https://www.szu.edu.cn/) in 2020.
 
@@ -41,7 +41,7 @@ I have interned at **Huawei** (2012 Lab, algorithm engineer, 2021–2023) and **
 - <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">Intelligence & Robotics 2024</span> A Deep Learning-based System for Accurate Detection of Anatomical Landmarks in Colon Environment, <br>
   <ins>**Kaiwei Che**</ins>, Chengwei Ye, Yibing Yao, Nachuan Ma, Ruo Zhang, Jiankun Wang, Max Q-H Meng
 
-- <<span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">NeurIPS 2022, Spotlight</span> [Differentiable Hierarchical and Surrogate Gradient Search for Spiking Neural Networks](https://proceedings.neurips.cc/paper_files/paper/2022/hash/9e8c2895db691eaab85af37bddee75aa-Abstract-Conference.html), <br>
+- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">NeurIPS 2022, Spotlight</span> [Differentiable Hierarchical and Surrogate Gradient Search for Spiking Neural Networks](https://proceedings.neurips.cc/paper_files/paper/2022/hash/9e8c2895db691eaab85af37bddee75aa-Abstract-Conference.html), <br>
   <ins>**Kaiwei Che**</ins>, Luziwei Leng, Kaixuan Zhang, Jianguo Zhang, Qinghu Meng, Jie Cheng, Qinghai Guo, Jianxing Liao
 
 ### Co-Author
