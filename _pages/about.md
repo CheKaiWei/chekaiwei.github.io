@@ -9,15 +9,17 @@ redirect_from:
 ---
 ##  About Me
 
-I am Kaiwei Che (Richard), a third-year Ph.D. student at [Peking University](https://www.pku.edu.cn/) (since Sep. 2023), advised by Prof. [Yonghong Tian](https://cs.pku.edu.cn/info/1082/1696.htm) and Prof. [Li Yuan](https://yuanli2333.github.io/). Before this, I received my Master's degree from [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/) in 2023, advised by Prof. [Qinghu Meng](https://scholar.google.ca/citations?user=DxDCU7AAAAAJ&hl=en). I received my Bachelor's degree from [Shenzhen University](https://www.szu.edu.cn/) in 2020.
+I am Kaiwei Che (Richard), a third-year Ph.D. student at [Peking University](https://www.pku.edu.cn/) (2023–2027), advised by Prof. [Yonghong Tian](https://cs.pku.edu.cn/info/1082/1696.htm) and Prof. [Li Yuan](https://yuanli2333.github.io/). My research focuses on **AI Infra** and **Efficient AI**, including model sparse quantization, training and inference acceleration, and brain-inspired algorithms. I have published **3 CCF-A** first-author papers at **ICML (Spotlight)**, **NeurIPS (Spotlight)**, and **AAAI**, along with 2 SCI journal papers, with **360+** total citations.
 
-I have interned at **Huawei** (2012 Lab, algorithm engineer, 2021–2023) and **DJI** (robot algorithm engineer, RoboMasters, 2018).
+Before this, I received my Master's degree from [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/) in 2023, advised by Prof. [Qinghu Meng](https://scholar.google.ca/citations?user=DxDCU7AAAAAJ&hl=en). I received my Bachelor's degree from [Shenzhen University](https://www.szu.edu.cn/) in 2020.
+
+I have interned at **Huawei** (2012 Lab, Research Intern, 2021–2023) and **DJI** (RoboMasters, 2018), with extensive experience in algorithm research and engineering practice.
 
 ##  Research Interests
-- **Spiking Neural Networks (SNNs), brain-inspired algorithms, neuromorphic computing**
-- **LLM sparse quantization and efficient inference acceleration**
-- **Event-based vision and neuromorphic sensing**
-
+- **AI Infra & Efficient AI**: model sparse quantization, training/inference acceleration, brain-inspired algorithms
+- **Spiking Neural Networks (SNNs)**: energy-efficient deep learning, neuromorphic computing
+- **LLM/VLM**: post-training alignment (SFT, RLHF), RAG, agent systems
+- **Event-based Vision**: neuromorphic sensing, efficient event processing
 
 
 ## Publications 
@@ -32,6 +34,12 @@ I have interned at **Huawei** (2012 Lab, algorithm engineer, 2021–2023) and **
 - <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">AAAI 2026</span> [Parallel Training Time-to-First-Spike Spiking Neural Networks](https://ojs.aaai.org/index.php/AAAI/article/view/37149) <br>
   <ins>**Kaiwei Che**</ins>, Wei Fang, Peng Xue, Yifan Huang, Zhengyu Ma, Yonghong Tian
 
+- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">NeurIPS 2022, Spotlight</span> [Differentiable Hierarchical and Surrogate Gradient Search for Spiking Neural Networks](https://proceedings.neurips.cc/paper_files/paper/2022/hash/9e8c2895db691eaab85af37bddee75aa-Abstract-Conference.html) <br>
+  <ins>**Kaiwei Che**</ins>, Luziwei Leng, Kaixuan Zhang, Jianguo Zhang, Qinghu Meng, Jie Cheng, Qinghai Guo, Jianxing Liao
+
+- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">MM 2026, under review</span> [Deep-TTFS: Scaling Time-to-First-Spike Neural Networks to ImageNet](https://arxiv.org/abs/2410.23619) <br>
+  <ins>**Kaiwei Che**</ins>, Wei Fang, Zhengyu Ma, Peng Xue, Li Yuan, Yonghong Tian
+
 - <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">Frontiers in Neuroscience 2024</span> [Auto-Spikformer: Spikformer Architecture Search](https://arxiv.org/abs/2306.00807) <br>
   <ins>**Kaiwei Che**</ins>, Zhaokun Zhou, Jun Niu, Zhengyu Ma, Wei Fang, Yanqi Chen, Shuaijie Shen, Li Yuan, Yonghong Tian
 
@@ -40,9 +48,6 @@ I have interned at **Huawei** (2012 Lab, algorithm engineer, 2021–2023) and **
 
 - <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">Intelligence & Robotics 2024</span> A Deep Learning-based System for Accurate Detection of Anatomical Landmarks in Colon Environment <br>
   <ins>**Kaiwei Che**</ins>, Chengwei Ye, Yibing Yao, Nachuan Ma, Ruo Zhang, Jiankun Wang, Max Q-H Meng
-
-- <span style="display:inline-block; background-color:#00369F; color:#fff; padding:0px 7px; margin-right:5px; font-size:13px;">NeurIPS 2022, Spotlight</span> [Differentiable Hierarchical and Surrogate Gradient Search for Spiking Neural Networks](https://proceedings.neurips.cc/paper_files/paper/2022/hash/9e8c2895db691eaab85af37bddee75aa-Abstract-Conference.html) <br>
-  <ins>**Kaiwei Che**</ins>, Luziwei Leng, Kaixuan Zhang, Jianguo Zhang, Qinghu Meng, Jie Cheng, Qinghai Guo, Jianxing Liao
 
 ### Co-Author
 {: style="font-size:17px; font-weight:600; margin-top:20px; margin-bottom:8px;" }
@@ -75,6 +80,33 @@ I have interned at **Huawei** (2012 Lab, algorithm engineer, 2021–2023) and **
   Bingyi Xia, <ins>**Kaiwei Che**</ins>, Zhilong Tang, Jiankun Wang, Max Q-H Meng
 
 
+## Research Projects & Experience
+{: #research-projects .section-title }
+
+### AI Infra & Efficient AI
+
+- **[NPUSlim](https://github.com/TheBrainLab/npuslim): LLM Quantization, Sparse & Acceleration Framework on Huawei NPU** (Provincial Key Project) <br>
+  A framework for quantization, sparsity, and inference acceleration on Huawei NPUs. Supports mainstream model integration and deployment via vLLM / vLLM-ascend. Implements full-pipeline 2:4 structured sparse operator adaptation on NPU, integrates GPTQ, SparseGPT and other PTQ algorithms. Features a layer-block streaming quantization pipeline with trillion-parameter-scale offline quantization capability on a single machine.
+
+- **Winner-Take-All Spiking Transformer for Language Modeling** <br>
+  Proposes WTA-based attention to replace softmax for fully spike-driven, floating-point-free computation. Develops both Decoder-only and Encoder-only SNN Transformers, achieving SNN SOTA across multiple datasets with only 1/14 the energy of Qwen-1.5B.
+
+### Agent
+
+- **[SF-RAG: Selective Filtering for Retrieval-Augmented Generation](https://anonymous.4open.science/r/RF-RAG-Paper-F64C/164_RF_RAG_Efficient_Retrieval.pdf)** <br>
+  Addresses context overload and intermediate information issues in traditional RAG. Proposes a lightweight Reasoner for parallel inference and CoT chunk-level utility scoring, enabling dynamic retrieval document filtering. Outperforms SELF-RAG, SURE, and other baselines on 5 open-domain QA benchmarks. The Reasoner is an LLaMA-8B model fine-tuned via SFT on GPT-4o synthetic data.
+
+- **[Personal Time Management Agent](https://github.com/CheKaiWei/Personal-Time-Management-Agent)** <br>
+  A multi-workflow agent built on LangGraph that routes weekly/daily planning and review workflows by intent. Uses interrupt/resume for user confirmation and information completion, constraining the LLM from unauthorized plan modifications for improved controllability.
+
+### Technical Blogs
+
+- **[LLM/VLM Technical Blog](https://github.com/CheKaiWei/LLM-VLM-Tech-Blog)** <br>
+  Systematically covers VLM technical directions, including discriminative models (CLIP, BLIP-2, Flamingo, Qwen-VL) and generative models (DDPM, LDM, DALL-E, DiT). Includes multimodal fine-tuning experiments using LLaMA-Factory with Qwen3-VL SFT.
+
+- **[RLHF Technical Blog](https://github.com/CheKaiWei/Reinforcement-Learning-for-LLM-Alignment)** <br>
+  Covers RL alignment methods (PG, TRPO, PPO, GRPO) from both mathematical principles and engineering implementation perspectives. Includes multimodal RL alignment experiments on Geo3K using verl with Qwen2.5-VL and LoRA GRPO.
+
 
 ## Academic Service
 {: #academic-service .section-title }
@@ -83,7 +115,27 @@ I have experience in reviewing for high-impact AI conferences and journals, incl
 
 **Conferences:** NeurIPS, ICML, ICLR, CVPR, AAAI
 
-**Journals:** TIP, TNNLS, Pattern Recognition
+**Journals:** TIP, TNNLS, Pattern Recognition, Scientific Reports
+
+
+<!-- ## Awards
+{: #awards .section-title }
+
+- 北京大学优秀科研奖 (Peking University Outstanding Research Award)
+- 南方科技大学优秀毕业生 (SUSTech Outstanding Graduate)
+- 中国物联网大赛一等奖 (China IoT Competition, First Prize)
+- 阿里云创新奖 (Alibaba Cloud Innovation Award)
+ -->
+
+## Skills
+{: #skills .section-title }
+
+- **Programming Languages & Frameworks:** Python, C++, Triton; PyTorch
+- **Post-training & Alignment:** SFT, RLHF (PPO, GRPO); Frameworks: LLaMA-Factory, verl
+- **Agent Systems:** RAG, Tool use; Framework: LangGraph
+- **Inference Optimization:** Quantization, sparsity, inference acceleration, NPU deployment; Framework: vLLM
+- **Open Source:** [Spikingjelly](https://github.com/fangwei123456/spikingjelly) (2k+ stars), [NPUSlim](https://github.com/TheBrainLab/npuslim), [RoboRTS](https://github.com/RoboMaster/RoboRTS) (800+ stars)
+- **Languages:** CET6
 
 
 ## Contact
@@ -184,5 +236,4 @@ body, .page__content {
   flex-shrink: 0;
 }
 </style> 
-
 
